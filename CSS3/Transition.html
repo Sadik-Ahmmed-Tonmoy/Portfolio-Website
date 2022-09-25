@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition</title>
+  <style>
+.box, .box2, .inner{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  }
+  .box3:hover{height: 400px;
+  width: 400px;
+  transform: rotate(180deg);
+  background-color: brown;
+  transition: height 2s ease, width 3s ease, transform 2s ease;}
+.box:hover{
+  background-color: burlywood;
+  transition: background-color 1s ease-out 0.1s;
+}
+.wid:hover{
+  width: 400px;
+  transition: width 3s, background-color 3s ease-out;
+}
+.wid2:hover{ height: 400px; background-color: red;
+transition: height 2s ease-in, background-color 2s ease-out;}
+.pd{padding: 3px 35px;}
+.box{float: left;
+margin: 5px;}
+.box2{float: left;
+margin: 5px;}
+  </style>
+</head>
+<body>
+  <section class="float">
+    <div class="box">
+      <h1 class="pd">Transition-1</h1>
+    </div>
+    <div class="box wid">
+      <h2 class="pd">Transition-2</h2>
+    </div>
+    <div class="box2 wid2">
+      <h3 class="pd">Transition-3</h3>
+    </div>
+    <div class="box2 box3">
+      <div class="inner">
+        <h4>ߤ-uoᴉʇᴉsuɐɹꓕ</h4>
+      </div>
+    </div>
+    <a href="../index.html">Home</a>
+  </section> 
+</body>
+</html>

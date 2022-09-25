@@ -1,0 +1,23 @@
+body{
+  font-family: 'poppins' sans-serif; margin: 0;
+}
+h1{
+  font-size: 50px;
+}
+.golden-name{color: #D1512D;}
+.half-width{
+  width: 38% ;
+  float: left;
+  margin: 3%;
+  padding: 1%;
+}
+.half-width img{
+  width: 64%;
+}
+.top-banner{
+  background-image: url(Image/bgimg.jpg); 
+}
+section{
+  height: 630px;
+}
+.left{float:left;}
