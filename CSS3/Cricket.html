@@ -7,14 +7,13 @@
   <title>Document</title>
   <Style>
     .bat{
-      padding: 0px 100px;
-      height: 600px;
-      width: 100px;
+      height: 400px;
+      width: 400px;
       transition: transform 0.2s ease;
     }
     .bat:hover{
-      transform: rotate(-400deg);
-      transform-origin: 100% 0%;
+      transform: rotate(-4deg);
+   
       }
       .ball{
         height: 50px;
@@ -22,15 +21,22 @@
         background-color: red;
         border-radius: 50%;
         position: relative;
-        left: 300px; 
-      }
-      
+        left: 420px; 
+        translate: -400px -120px;
+        transition: ransform 2s ease 0.5s;
+        }
+        .field:hover{
+          transform: translate(400px, -200px);
+        }
   </Style>
 </head>
 <body>
-  <div class="field">
-    <img class="bat" src="../Image/bat.jpg" alt="">
-    <div class="ball"></div>
-  </div>
+  <section>
+      <div class="field">
+      <img class="bat" src="../Image/bat.jpg" alt="">
+      <div class="ball"></div>
+      </div>
+  </section>
+
 </body>
 </html>
